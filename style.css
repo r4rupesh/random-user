@@ -1,0 +1,34 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #0d6efd;
+}
+
+p {
+  padding: 3px;
+  margin: 0;
+  font-weight: 600;
+  color: rgba(0, 0, 255, 0.901);
+}
+i {
+  margin-right: 2px;
+  font-size: 20px;
+}
+h5 i {
+  margin-right: 6px;
+  color: blue;
+}
+.gender i {
+  /* font-size: 20px; */
+  margin-right: 4px;
+}
+.image {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+button:active {
+  transform: scale(1.1);
+}
